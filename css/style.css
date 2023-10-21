@@ -1,0 +1,38 @@
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:50px;
+    line-height:50px;
+    background-color:lightseagreen;
+    font-family:Arial;
+    font-size:15px;
+}
+li{
+    float:right;
+    border-right:1px solid blue;
+}
+a{
+    display:block;
+    padding:0 30px;
+    color:whitesmoke;
+    text-decoration:none;
+}
+a:hover{
+    background-color:blueviolet;
+}
+.active a{
+    background-color:blueviolet;
+}
+body{
+    background-image:url(buddha.jpg);
+}
+h1{
+    color:blue;
+}
+label.logo{
+    color:white;
+    font-size:35px;
+    line-height:50px;
+    padding:0 100px;
+}
